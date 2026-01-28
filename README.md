@@ -111,6 +111,7 @@ secure-hitl-employee-access/
 │   ├── risk_model.py       # Risk scoring & explanation
 │   ├── init_db.py          # DB & table creation
 │   ├── create_user.py      # Insert users
+|   ├── test.py             # database verification test. (run after run init_db.py and create_user.py)
 │
 ├── db.sqlite               # SQLite database
 ├── README.md               # Project documentation
